@@ -27,7 +27,7 @@ const router = createBrowserRouter(
           element: <Home />
         },
         {
-          path: "posts:id",
+          path: "/posts",
           element: <Single />
         },
         {
@@ -59,4 +59,4 @@ const App = () => {
 
 
 
-export default App
+export default App;
